@@ -1,0 +1,17 @@
+C++
+Copy Code
+//Person.h
+class Person
+{
+private:
+    char* pFirstName;
+    char* pLastName;
+    
+public:
+    Person(const char* pFirstName, const char* pLastName);    //constructor
+    ~Person();    //destructor
+
+    void displayInfo();
+    void writeToFile(const char* pFileName);
+
+};
